@@ -1,0 +1,278 @@
+{
+    "siteName": "Café Bambú",
+    "sitedescription": "Healthy Vegetarian Vegan Food",
+    "siteUrl": "http://www.cafebambu.dk",
+    "logo": "http://www.cafebambu.dk/img/logo-cafe-bambu@2x.png",
+    "logoRetina": "http://www.cafebambu.dk/img/logo-cafe-bambu@2x.png",
+    "navigation": [
+        {"item": "About Us", "url": "#content-about-us", "childs": []},
+        {"item": "Menu Dansk", "url": "http://www.cafebambu.dk/menu-otono-dansk.pdf", "target":"_blank", "childs": []},
+        {"item": "Menu English", "url": "http://www.cafebambu.dk/menu-otono-english.pdf", "target":"_blank", "childs": []},
+        {"item": "Contact", "url": "#content-contact", "childs": []}
+    ],
+    "social": [
+        {"url": "https://www.facebook.com/bambucph", "icon": "fa-facebook-official"},
+        {"url": "https://www.instagram.com/bambucph", "icon": "fa-instagram"}
+    ],
+    "bannersDesktop": [
+        {
+            "img": "/img/banners/desktop/banner-1-min-min.jpg",
+            "description": "",
+            "alt": ""
+        },
+        {
+            "img": "/img/banners/desktop/banner-2-min.jpg",
+            "description": "",
+            "alt": ""
+        },
+        {
+            "img": "/img/banners/desktop/banner-3-min.jpg",
+            "description": "",
+            "alt": ""
+        },
+        {
+            "img": "/img/banners/desktop/banner-4-min.jpg",
+            "description": "",
+            "alt": ""
+        },
+        {
+            "img": "/img/banners/desktop/banner-5-min.jpg",
+            "description": "",
+            "alt": ""
+        }
+    ],
+    "bannersMobile": [
+        {
+            "img": "/img/banners/mobile/banner-mobile-1-min.jpg",
+            "description": "",
+            "alt": ""
+        },
+        {
+            "img": "/img/banners/mobile/banner-mobile-2-min.jpg",
+            "description": "",
+            "alt": ""
+        },
+        {
+            "img": "/img/banners/mobile/banner-mobile-3-min.jpg",
+            "description": "",
+            "alt": ""
+        },
+        {
+            "img": "/img/banners/mobile/banner-mobile-4-min.jpg",
+            "description": "",
+            "alt": ""
+        },
+        {
+            "img": "/img/banners/mobile/banner-mobile-5-min.jpg",
+            "description": "",
+            "alt": ""
+        }
+    ],
+    "content": {
+        "menu": [
+            {
+                "category": "Vegetarian Specialities",
+                "item": "Croque Mademoiselle",
+                "price": "89 kr",
+                "photo": "bambu-49-min.jpg",
+                "description": "Bechamel Sauce, Dijon, Emmental, Green Salad, Cherry Tomato, Red Onion, Soft Egg & Chives."
+            },
+            {
+                "category": "Vegetarian Specialities",
+                "item": "Quiche",
+                "price": "99 kr",
+                "photo": "bambu-16-min.jpg",
+                "description": "Green salad, Red Onion, Dried tomatos, Artichoke & Olive oil."
+            },
+            {
+                "category": "Vegetarian Specialities",
+                "item": "Burger",
+                "price": "109 kr",
+                "photo": "bambu-37-min.jpg",
+                "description": "Chilimayo, Tomato, Red Onion, Cucumber, Cabbage, Carrot & Root Vegetables Chips."
+            },
+            {
+                "category": "Salads",
+                "item": "Mediterranean Salad",
+                "price": "109 kr",
+                "photo": "bambu-49-min.jpg",
+                "description": "Baby Spinach, Quinoa, Chickpea, Dried Tomato, Olives, Artichoke & Olive Oil."
+            },
+            {
+                "category": "Salads",
+                "item": "Smoked Salmon Salad",
+                "price": "109 kr",
+                "photo": "bambu-16-min.jpg",
+                "description": "Green Salad, Cucumber, Capers, Cherry Tomato, Red Onion, Dill & Yogurt Dressing."
+            },
+            {
+                "category": "Salads",
+                "item": "Chicken Salad",
+                "price": "119 kr",
+                "photo": "banner-6.jpg",
+                "description": "Green Salad, Avocado, Red Fruits, Feta Cheese, Nuts & Balsamic Vinegar."
+            },
+            {
+                "category": "Salads",
+                "item": "Goat Cheese Salad",
+                "price": "129 kr",
+                "photo": "bambu-37-min.jpg",
+                "description": "Rocket Salad, Roasted aspargus and Goat Cheese, Rye Bread, Apple, Walnuts & Honey."
+            },
+            {
+                "category": "Snacks",
+                "item": "Olives",
+                "price": "",
+                "photo": "bambu-49-min.jpg",
+                "description": ""
+            },
+            {
+                "category": "Snacks",
+                "item": "Humus",
+                "price": "29 kr",
+                "photo": "bambu-16-min.jpg",
+                "description": "Chickpeas, Tahini, Olive Oil, Lemon Juice & Garlic with Bread Basket."
+            },
+            {
+                "category": "Snacks",
+                "item": "Tapenade",
+                "price": "39 kr",
+                "photo": "bambu-37-min.jpg",
+                "description": "Black Olives, Capers, Garlic, Anchovies & Olive Oil with Bread Basket."
+            },
+            {
+                "category": "Snacks",
+                "item": "Guacamole",
+                "price": "49 kr",
+                "photo": "bambu-49-min.jpg",
+                "description": "Avocado, Tomato, Red Onion, Olive Oil, Lemon Juice, Basil &  Bread Basket."
+            },
+            {
+                "category": "Snacks",
+                "item": "Salted Nuts",
+                "price": "49 kr",
+                "photo": "bambu-16-min.jpg",
+                "description": ""
+            },
+            {
+                "category": "Snacks",
+                "item": "Snack Board",
+                "price": "89 kr",
+                "photo": "banner-6.jpg",
+                "description": "Bread Basket, Butter, Ham, Cheese, Olives & Nuts."
+            },
+            {
+                "category": "Snacks",
+                "item": "Vegetarian Snack Board",
+                "price": "89 kr",
+                "photo": "bambu-37-min.jpg",
+                "description": "Bread basket, Humus, Tapenade, Guacamole, Olives & Nuts."
+            },
+            {
+                "category": "Smorrebro",
+                "item": "Potato",
+                "price": "69 kr",
+                "photo": "bambu-49-min.jpg",
+                "description": "Rye Bread, Cream Fresh, Horseradish, Potato, Crisp Onion & Chives."
+            },
+            {
+                "category": "Smorrebro",
+                "item": "All Green",
+                "price": "69 kr",
+                "photo": "bambu-16-min.jpg",
+                "description": "Rye Bread, Humus, Cucumber, Avocado, Baby Spinach & Chives."
+            },
+            {
+                "category": "Smorrebro",
+                "item": "Pesto & Mussarela",
+                "price": "79 kr",
+                "photo": "bambu-37-min.jpg",
+                "description": "Rye Bread, Green Pesto, Fresh Mussarela, Artichoke, Dried Tomato & Rocket Salad."
+            },
+            {
+                "category": "Smorrebro",
+                "item": "Avocado & Smoked Salmon",
+                "price": "79 kr",
+                "photo": "bambu-49-min.jpg",
+                "description": "Rye Bread, Philadelfia, Avocado, Smoked Salmon, Cherry Tomato, Capers & Cress."
+            },
+            {
+                "category": "Smorrebro",
+                "item": "Asparagus",
+                "price": "79 kr",
+                "photo": "bambu-16-min.jpg",
+                "description": "Rye Bread, Cottage Cheese, Asparagus, Radish, Soft Egg & Alfafa"
+            },
+            {
+                "category": "Breakfast",
+                "item": "Red Fruits Musli",
+                "price": "39 kr",
+                "photo": "banner-6.jpg",
+                "description": "Skyr/Soy Yogurt, Red Fruits, Eco Toasted Muesli with Rye Bread & Honey."
+            },
+            {
+                "category": "Breakfast",
+                "item": "Apple Cinnamon Quinoa",
+                "price": "49 kr",
+                "photo": "bambu-37-min.jpg",
+                "description": "Skyr/Soy Yogurt, Apple, Cinnamon, Nuts & Quinoa."
+            },
+            {
+                "category": "Breakfast",
+                "item": "Coconut Banana Chia Pudding",
+                "price": "49 kr",
+                "photo": "bambu-49-min.jpg",
+                "description": "Coconut Milk, Vanilla, Honey, Chia Seeds, Banana, Coconut Flakes & Goji Berry."
+            },
+            {
+                "category": "Breakfast",
+                "item": "Quinoa Bowl",
+                "price": "49 kr",
+                "photo": "bambu-16-min.jpg",
+                "description": "Almond Milk, Red Fruits, Banana, Peanut Butter & Quinoa."
+            },
+            {
+                "category": "Breakfast",
+                "item": "Classic American Pancakes",
+                "price": "59 kr",
+                "photo": "bambu-37-min.jpg",
+                "description": "Red fruits, Nuts & Syrup (Extra Syrup: Agave, Maple or Chocolate Sauce +10 kr)."
+            },
+            {
+                "category": "Sweets",
+                "item": "Butter Croissant",
+                "price": "15 kr",
+                "photo": "bambu-49-min.jpg",
+                "description": ""
+            },
+            {
+                "category": "Sweets",
+                "item": "Chocolate Croissant / Cinnamon Bun",
+                "price": "20 kr",
+                "photo": "bambu-16-min.jpg",
+                "description": ""
+            },
+            {
+                "category": "Sweets",
+                "item": "Cakes",
+                "price": "35 kr",
+                "photo": "banner-6.jpg",
+                "description": "We have a seasonal selection cakes, please ask the staff for more information."
+            },
+            {
+                "category": "Brunch Plate",
+                "item": "Brunch (Served exclusively on Saturdays and Sundays)",
+                "price": "139 kr",
+                "photo": "bambu-37-min.jpg",
+                "description": "Ginger Shot, Croissant, Butter, Ham, Cheese, Soft Egg, American Pancake with Banana & Syrup, Yogurt with Jam & Musli and Fruits."
+            },
+            {
+                "category": "Brunch Plate",
+                "item": "Vegetarian Brunch (Served exclusively on Saturdays and Sundays)",
+                "price": "139 kr",
+                "photo": "bambu-49-min.jpg",
+                "description": "Ginger Shot, Croissant, Humus, Guacamole, Tapenade, Soft Egg, American Pancake with Banana & Syrup, Yogurt with Jam & Musli and Fruits."
+            }
+        ]
+    }
+}

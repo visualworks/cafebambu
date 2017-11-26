@@ -50,14 +50,14 @@ export default class Content extends Component {
                     <nav className="level">
                         <div className="level-left">
                             <div className="level-item">
-                                <a href="http://www.cafebambu.dk/menu-otono-dansk.pdf" target="_blank" className="button primary">
+                                <a href="http://www.cafebambu.dk/menu-dansk.pdf" target="_blank" className="button primary">
                                     Menu Dansk
                                 </a>
                             </div>
                         </div>
                         <div className="level-right">
                             <div className="level-item">
-                                <a href="http://www.cafebambu.dk/menu-otono-english.pdf" target="_blank" className="button primary">
+                                <a href="http://www.cafebambu.dk/menu-english.pdf" target="_blank" className="button primary">
                                     Menu English
                                 </a>
                             </div>
@@ -67,24 +67,38 @@ export default class Content extends Component {
                 <section id="content-contact" className="section">
                     <div className="container">
                         <div className="columns">
-                            <div className="column is-4">
-                                <div className="fb-page" data-href="https://www.facebook.com/bambucph" data-tabs="events,messages,timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-height="370px"><blockquote cite="https://www.facebook.com/bambucph" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bambucph">Café Bambú</a></blockquote></div>
-                            </div>
                             <div className="column">
-                                <div className="content">
-                                    <h3 className="title"><span className="icon"><i className="fa fa-clock-o"></i></span> We are open</h3>
-                                    <p>Tuesday to Saturday, from 11h to 22h (but the kitchen closes at 21h).<br />Sunday from 11h to 20h.</p>
-                                    <h3 className="title"><span className="icon"><i className="fa fa-instagram"></i></span> Follow us</h3>
-                                    <p>Instagram <a href="https://wwww.instagram.com/bambucph" target="_blank">@bambucph</a><br />Facebook <a href="https://wwww.facebook.com/bambucph" target="_blank">/bambucph</a></p>
+                                <div className="fb-page" data-href="https://www.facebook.com/bambucph" data-tabs="timeline, events, messages" data-small-header="false" data-adapt-container-width="true" data-width="500" data-hide-cover="false" data-show-facepile="true" data-height="500">
+                                    <blockquote cite="https://www.facebook.com/bambucph" className="fb-xfbml-parse-ignore">
+                                        <a href="https://www.facebook.com/bambucph">Café Bambú</a>
+                                    </blockquote>
                                 </div>
                             </div>
                             <div className="column">
                                 <div className="content">
-                                    <h3 className="title"><span className="icon"><i className="fa fa-bicycle"></i></span> Café Bambú Takeaway!</h3>
-                                    <p>Call and order your takeaway directly in Café Bambú on telephone 35 30 06 06.</p>
-                                    <p>Café Bambú, Griffenfeldsgade 24B, 2200 København N.</p>
-                                    <h3 className="title"><span className="icon"><i className="fa fa-phone"></i></span> Keep in touch</h3>
+                                    <h3 className="title has-text-primary">
+                                        <span className="icon">
+                                            <i className="fa fa-clock-o"></i>
+                                        </span>
+                                        &nbsp;We are open
+                                    </h3>
+                                    <p>Tuesday to Saturday, from 11h to 22h (but the kitchen closes at 21h).<br />Sunday from 11h to 20h.</p>
+                                    <h3 className="title has-text-primary">
+                                        <span className="icon">
+                                            <i className="fa fa-bicycle"></i>
+                                        </span>
+                                        &nbsp;Café Bambú Takeaway!
+                                    </h3>
+                                    <p>Call and order your takeaway directly in Café Bambú on telephone 35 30 06 06.<br />
+                                    Café Bambú, Griffenfeldsgade 24B, 2200 København N.</p>
+                                    <h3 className="title has-text-primary">
+                                        <span className="icon">
+                                            <i className="fa fa-phone"></i>
+                                        </span>
+                                        &nbsp;Keep in touch
+                                    </h3>
                                     <p>If you liked us, tell your friends... If you didn't, tell us!<br />E-mail: <a href="mailto:contact@cafebambu.dk" target="_blank">contact@cafebambu.dk</a><br />Phone 35 30 06 06<br />Or via Facebook Messenger.</p>
+                                    <p>Instagram <a href="https://wwww.instagram.com/bambucph" target="_blank">@bambucph</a> | Facebook <a href="https://wwww.facebook.com/bambucph" target="_blank">/bambucph</a></p>
                                 </div>
                             </div>
                         </div>
@@ -93,35 +107,18 @@ export default class Content extends Component {
                 <section className="section partners">
                     <div className="container">
                         <div className="columns">
-                            <div className="column">
+                            <div className="column is-three-fifths is-offset-one-fifth">
                                 <div className="card">
                                     <div className="card-content">
                                         <div className="columns">
-                                            <div className="column is-two-fifths">
+                                            <div className="column is-narrow">
                                                 <figure className="image is-128x128">
                                                     <img src="/img/supplier-logo-dansk-vegetarisk.png" alt="Dansk Vegetarisk Forening" title="Dansk Vegetarisk Forening" />
                                                 </figure>
                                             </div>
-                                            <div className="column is-three-fifths content">
+                                            <div className="column">
                                             <h3 className="title">Dansk Vegetarisk Forening</h3>
                                                 <p>We have a collaboration with Dansk Vegetarisk Forening. All members get 10% discount off the entire bill.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="column">
-                                <div className="card">
-                                    <div className="card-content">
-                                        <div className="columns">
-                                            <div className="column is-two-fifths">
-                                                <figure className="image partners-right is-128x128">
-                                                    <img src="/img/supplier-logo-charitea.png" alt="With every purchase of ChariTea and Lemonaid you support projects making social change in developing countries." title="With every purchase of ChariTea and Lemonaid you support projects making social change in developing countries." />
-                                                </figure>
-                                            </div>
-                                            <div className="column is-three-fifths content">
-                                                <h3 className="title">ChariTea</h3>
-                                                <p>With every purchase of ChariTea and Lemonaid you support projects making social change in developing countries.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +131,12 @@ export default class Content extends Component {
                     <div className="container content">
                         <h3 className="title"><span className="icon"><i className="fa fa-truck"></i></span> Our suppliers</h3>
                         <h4 className="subtitle">We have a wide selection of suppliers where we source our fresh and organic products from:</h4>
-                        <div className="columns is-two-thirds">
+                        <div className="columns is-gapless is-multiline">
+                            <div className="column">
+                                <figure className="image">
+                                    <img src="/img/supplier-logo-charitea.png" alt="With every purchase of ChariTea and Lemonaid you support projects making social change in developing countries." title="With every purchase of ChariTea and Lemonaid you support projects making social change in developing countries." />
+                                </figure>
+                            </div>
                             <div className="column">
                                 <figure className="image">
                                     <img src="/img/supplier-logo-lemonaid.png" alt="LemonAid make soft drinks how they should be. With only the best organic ingredients and Fairtrade-certified." title="LemonAid make soft drinks how they should be. With only the best organic ingredients and Fairtrade-certified." />
@@ -152,7 +154,7 @@ export default class Content extends Component {
                             </div>
                             <div className="column">
                                 <figure className="image">
-                                    <img src="/img/supplier-logo-kjaer-sommerfeldt.svg" alt="Kjær Sommerfeldt supplies us with a wide range of all organic wines." title="Kjær Sommerfeldt supplies us with a wide range of all organic wines." />
+                                    <img src="/img/supplier-logo-kjaer-sommerfeldt.png" alt="Kjær Sommerfeldt supplies us with a wide range of all organic wines." title="Kjær Sommerfeldt supplies us with a wide range of all organic wines." />
                                 </figure>
                             </div>
                             <div className="column">
@@ -161,8 +163,8 @@ export default class Content extends Component {
                                 </figure>
                             </div>
                             <div className="column">
-                                <figure className="image is-128x128">
-                                    <img src="/img/supplier-logo-norrebro.png" alt="Nørrebro Bryghus is a local brewery where we buy our organic beer from." title="Nørrebro Bryghus is a local brewery where we buy our organic beer from." className="is-rounded" />
+                                <figure className="image">
+                                    <img src="/img/supplier-logo-norrebro.png" alt="Nørrebro Bryghus is a local brewery where we buy our organic beer from." title="Nørrebro Bryghus is a local brewery where we buy our organic beer from." />
                                 </figure>
                             </div>
                         </div>

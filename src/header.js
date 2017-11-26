@@ -6,23 +6,6 @@ export default class Header extends Component {
     constructor(props){
         super(props);
         let config = this.props.config;
-        // let i = 0;
-        // this.state = {
-        //     bannersDesktop: {backgroundImage: 'url(' + this.props.config.bannersDesktop[i].img + ')'},
-        //     bannersMobile: {backgroundImage: 'url(' + this.props.config.bannersMobile[i].img + ')'}
-        // };
-        // setInterval(() => {
-        //     this.setState(previousBanner => {
-        //         return {
-        //             bannersDesktop: {backgroundImage: 'url(' + this.props.config.bannersDesktop[i].img + ')'},
-        //             bannersMobile: {backgroundImage: 'url(' + this.props.config.bannersMobile[i].img + ')'}
-        //         };
-        //     })
-        //     i++;
-        //     if(i === this.props.config.bannersDesktop.length){
-        //         i = 0;
-        //     }
-        // }, 6500);
     }
     render(){
         let config = this.props.config;

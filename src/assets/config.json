@@ -6,8 +6,8 @@
     "logoRetina": "http://www.cafebambu.dk/img/logo-cafe-bambu@2x.png",
     "navigation": [
         {"item": "About Us", "url": "#content-about-us", "childs": []},
-        {"item": "Menu Dansk", "url": "http://www.cafebambu.dk/menu-otono-dansk.pdf", "target":"_blank", "childs": []},
-        {"item": "Menu English", "url": "http://www.cafebambu.dk/menu-otono-english.pdf", "target":"_blank", "childs": []},
+        {"item": "Menu Dansk", "url": "http://www.cafebambu.dk/menu-dansk.pdf", "target":"_blank", "childs": []},
+        {"item": "Menu English", "url": "http://www.cafebambu.dk/menu-english.pdf", "target":"_blank", "childs": []},
         {"item": "Contact", "url": "#content-contact", "childs": []}
     ],
     "social": [

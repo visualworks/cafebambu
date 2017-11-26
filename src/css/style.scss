@@ -83,33 +83,11 @@ $primary-invert: #fff;
     width: 100%;
 }
 
-.card-content .image {
-    margin-left: auto;
-    margin-right: auto;
-}
-.partners-right img {
-    padding-top: 35%;
-}
-@media only screen and (min-device-width: 768px){
-    .suppliers .content .image {
-        margin-left: 1em;
-        margin-right: 1em;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-}
-figure.image img {
-    vertical-align: middle;
-}
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
     .column.is-hidden-desktop .image {
         margin-bottom: 2em;
     }
-    .suppliers .content .image {
-        margin-top: 2em;
-    }
-    .suppliers .content .image.is-128x128 {
+    .partners .image {
         margin-left: auto;
         margin-right: auto;
     }

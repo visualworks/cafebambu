@@ -50,14 +50,14 @@ export default class Content extends Component {
                     <nav className="level">
                         <div className="level-left">
                             <div className="level-item">
-                                <a href="http://www.cafebambu.dk/menu-dansk.pdf" target="_blank" className="button primary">
+                                <a href="http://www.cafebambu.dk/assets/menu-dansk.pdf" target="_blank" className="button primary">
                                     Menu Dansk
                                 </a>
                             </div>
                         </div>
                         <div className="level-right">
                             <div className="level-item">
-                                <a href="http://www.cafebambu.dk/menu-english.pdf" target="_blank" className="button primary">
+                                <a href="http://www.cafebambu.dk/assets/menu-english.pdf" target="_blank" className="button primary">
                                     Menu English
                                 </a>
                             </div>

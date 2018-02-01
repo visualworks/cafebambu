@@ -9,11 +9,15 @@ export default class Layout extends Component {
     }
     render(){
         return (
-            <div className="layout">
-                <Header config={this.props.config} />
-                <Content config={this.props.config} />
-                <Footer config={this.props.config} />
-            </div>
+            <section className="hero is-fullheight">
+                <div className="hero-body">
+                    <div className="container has-text-centered">
+                        <figure className="image logo">
+                            <img src={this.props.config.logoRetina} alt={this.props.config.siteName} title={this.props.config.siteName + " - " + this.props.config.siteDescription} />
+                        </figure>
+                    </div>
+                </div>
+            </section>
         );
     }
 }

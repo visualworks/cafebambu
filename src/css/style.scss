@@ -6,89 +6,8 @@ $primary: rgb(0, 165, 80);
 $primary-invert: #fff;
 @import "node_modules/bulma/bulma";
 
-.hero-desktop {
-    animation: 50s normal linear infinite heroDesktop;
-    -moz-animation: 50s normal linear infinite heroDesktop;
-    -webkit-animation: 50s normal linear infinite heroDesktop;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@keyframes heroDesktop {
-    0% { background-image: url("/img/banners/desktop/banner-1-min.jpg"); }
-    15% { background-image: url("/img/banners/desktop/banner-1-min.jpg"); }
-    20% { background-image: url("/img/banners/desktop/banner-2-min.jpg"); }
-    35% { background-image: url("/img/banners/desktop/banner-2-min.jpg"); }
-    40% { background-image: url("/img/banners/desktop/banner-3-min.jpg"); }
-    55% { background-image: url("/img/banners/desktop/banner-3-min.jpg"); }
-    60% { background-image: url("/img/banners/desktop/banner-4-min.jpg"); }
-    75% { background-image: url("/img/banners/desktop/banner-4-min.jpg"); }
-    80% { background-image: url("/img/banners/desktop/banner-5-min.jpg"); }
-    95% { background-image: url("/img/banners/desktop/banner-5-min.jpg"); }
-}
-
-.hero-mobile {
-    animation: 50s normal linear infinite heroMobile;
-    -moz-animation: 50s normal linear infinite heroMobile;
-    -webkit-animation: 50s normal linear infinite heroMobile;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@keyframes heroMobile {
-    0% { background-image: url("/img/banners/mobile/banner-1-min.jpg"); }
-    15% { background-image: url("/img/banners/mobile/banner-1-min.jpg"); }
-    20% { background-image: url("/img/banners/mobile/banner-2-min.jpg"); }
-    35% { background-image: url("/img/banners/mobile/banner-2-min.jpg"); }
-    40% { background-image: url("/img/banners/mobile/banner-3-min.jpg"); }
-    55% { background-image: url("/img/banners/mobile/banner-3-min.jpg"); }
-    60% { background-image: url("/img/banners/mobile/banner-4-min.jpg"); }
-    75% { background-image: url("/img/banners/mobile/banner-4-min.jpg"); }
-    80% { background-image: url("/img/banners/mobile/banner-5-min.jpg"); }
-    95% { background-image: url("/img/banners/mobile/banner-5-min.jpg"); }
-}
-
-.navbar-item {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-    -webkit-transition: -webkit-filter 15s;
-    transition: filter 15s;
-}
-
 .logo img {
     height: 130px;
     margin: auto;
     width: auto;
-}
-
-.about-us {
-    border-radius: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.about-us img {
-    width: auto;
-    max-width: auto;
-}
-
-.about-us-logo .image {
-    margin-top: 35%;
-}
-
-.hero-map iframe {
-    height: 350px;
-    width: 100%;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-    .column.is-hidden-desktop .image {
-        margin-bottom: 2em;
-    }
-    .partners .image {
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
